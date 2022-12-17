@@ -61,7 +61,6 @@ def encrypt(pk, plaintext):
     cipher = [(ord(char) ** key) % n for char in plaintext]
     return cipher
 
-
 def decrypt(pk, ciphertext):
     key, n = pk
     plain = [chr((char ** key) % n) for char in ciphertext]
