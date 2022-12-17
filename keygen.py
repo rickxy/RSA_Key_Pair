@@ -30,7 +30,6 @@ def multiplicative_inverse(a, b):
         ly += oa
     return lx
 
-
 def is_prime(num):
     if num == 2:
         return True
