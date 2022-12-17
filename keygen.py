@@ -40,7 +40,6 @@ def is_prime(num):
             return False
     return True
 
-
 def generate_keypair(p, q):
     if not (is_prime(p) and is_prime(q)):
         raise ValueError('Both numbers must be prime.')
